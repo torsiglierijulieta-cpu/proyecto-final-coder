@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: red;
+    text-align: center;
+}
+.color-h2{
+    color: violet;
+}
+.color-h2{
+    color: blue;
+}
+
+#color-definitivo{
+    color: aqua;
+}
+
+ main{
+    background-color: violet;
+}
+
+ul li{
+    list-style: none;
+}
+
+.color-h2{
+    color: blue;
+}
+
+main p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+h1{ 
+    margin-top: 10px;
+    margin-right: 12px;
+    margin-bottom: 14px;
+    margin-left: 16px;
+}
+// Mixin para centrado absoluto con Flexbox
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// Mixin para Media Queries (Responsive Design)
+@mixin tablet {
+    @media (max-width: 768px) { @content; }
+}
+@mixin mobile {
+    @media (max-width: 480px) { @content; }
+}

@@ -1,0 +1,43 @@
+@import 'variables';
+@import 'mixins';
+
+// Estilos globales de la estructura base
+body {
+    font-family: $font-main;
+    background-color: $color-light;
+    color: $color-dark;
+}
+
+// Personalización de la Navbar de Bootstrap
+.bg-custom {
+    background-color: $color-dark !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    span {
+        color: $color-primary;
+    }
+}
+
+// Hero Section (Estilo Avanzado)
+.hero-section {
+    min-height: 70vh;
+    background: linear-gradient(135deg, $color-dark 0%, #1e1b4b 100%);
+    color: white;
+    padding: 0 15px;
+
+    h1 {
+        font-size: 3rem;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+}
+
+.footer-main {
+    background-color: $color-dark;
+    color: #94a3b8;
+    margin-top: auto;
+}
+
+@import 'components';
