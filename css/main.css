@@ -1,0 +1,146 @@
+// generateMap: false, savePath: ../css
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+.color-h2 {
+  color: violet;
+}
+
+.color-h2 {
+  color: blue;
+}
+
+#color-definitivo {
+  color: aqua;
+}
+
+main {
+  background-color: violet;
+}
+
+ul li {
+  list-style: none;
+}
+
+.color-h2 {
+  color: blue;
+}
+
+main p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-right: 12px;
+  margin-bottom: 14px;
+  margin-left: 16px;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+.bg-custom {
+  background-color: #0f172a !important;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+.navbar-brand span {
+  color: #6366f1;
+}
+
+.hero-section {
+  min-height: 70vh;
+  background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+  color: white;
+  padding: 0 15px;
+}
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.footer-main {
+  background-color: #0f172a;
+  color: #94a3b8;
+  margin-top: auto;
+}
+
+.project-card, .card-service {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-custom {
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 8px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+.btn-custom:hover {
+  background-color: #f43f5e;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.card-service {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.card-service h3 {
+  color: #0f172a;
+  font-size: 1.5rem;
+}
+.card-service p {
+  color: #64748b;
+}
+.card-service:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(99, 102, 241, 0.15);
+}
+
+.project-card {
+  overflow: hidden;
+}
+.project-card .project-img-placeholder {
+  height: 200px;
+  background-color: #cbd5e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0f172a;
+  font-weight: bold;
+}
+
+.avatar-placeholder {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #e2e8f0;
+  margin: 0 auto;
+}
+
+.custom-form {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}/*# sourceMappingURL=main.css.map */
